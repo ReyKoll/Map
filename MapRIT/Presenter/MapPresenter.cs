@@ -35,7 +35,7 @@ namespace MapRIT.Presenter
             _mapView = mapView;
         }
 
-        public PointLatLng AddPoints(MainWindow window)
+        private PointLatLng AddPoints(MainWindow window)
         {
             Refresh(window.MainDataGridView);
 
@@ -111,7 +111,6 @@ namespace MapRIT.Presenter
                     command.ExecuteNonQuery();
                 }
             }
-
             dataBase.CloseConnection();
         }
 

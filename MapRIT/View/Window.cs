@@ -113,6 +113,5 @@ namespace MapRIT
                 TxtLongitude.Text = row.Cells[3].Value.ToString();
             }
         }
-
     }
 }

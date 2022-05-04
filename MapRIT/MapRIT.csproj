@@ -118,10 +118,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SQLSripts\VehiclesDBCreate.sql" />
-    <Content Include="SQLSripts\VehiclesInsertData.sql" />
-    <Content Include="SQLSripts\VehiclesSelect.sql" />
-    <Content Include="SQLSripts\VehiclesTableCreate.sql" />
+    <Content Include="SQLScripts\VehiclesDBCreate.sql" />
+    <Content Include="SQLScripts\VehiclesInsertData.sql" />
+    <Content Include="SQLScripts\VehiclesSelect.sql" />
+    <Content Include="SQLScripts\VehiclesTableCreate.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
