@@ -10,7 +10,9 @@ Also you can **edit**, **delete** this row(s). Basics SQL features :smile:
 ``` C#
 using System.Data.SqlClient;
 
-SqlConnection _connection = new SqlConnection(@"YOUR DBMS CORE NAME;Initial Catalog=YOUR CATALOG NAME;Integrated Security=true");
+SqlConnection _connection = new SqlConnection(@"YOUR DBMS CORE NAME;
+Initial Catalog=YOUR CATALOG NAME;
+Integrated Security=true");
 ```
  
  ##### SQL scripts
