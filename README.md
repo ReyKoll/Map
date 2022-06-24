@@ -2,7 +2,7 @@
 
 In this project you able to write longitude & latitude of vehicle. This coordinates will **add** to a table in database and add a point on map. 
 
-Also you can **edit**, **delete** this row(s). Basics SQL features :smile:
+Also you can **edit**, **delete** this row(s). Basic SQL features :smile:
 
 ### Microsoft SQL Server 2019
  
